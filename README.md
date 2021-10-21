@@ -1,3 +1,3 @@
 # Web maribel nails
 
-website for a beauty business
+website for a beauty salon

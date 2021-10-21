@@ -1,29 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import Header from './Components/Header/Header';
+
+
+
+const styles = {
+  general: {
+    backgroundColor: '#000',
+    color: "#fff",
+    padding: '15px 20px',
+   borderRadius: '5px',
+     height: 100
+  }
+}
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          oeauaoeuoea
-          euieui
-          ui
-          
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <div id = 'slider' >
+        <img alt='local' src='Components\Slider\spiral-nails.jpg'></img>
+      </div>
+      <div id ='body'>
+        1111oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+        oaeu<br/>
+      </div>
+
     </div>
-  );
+  )
 }
 
 export default App;
