@@ -1,42 +1,114 @@
 import './Services.css'
 
 const servicesObj = [
-    
-        {
-            name: "Cejas",
-            description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
+
+    {
+        name: "Cejas",
+        description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
                 Plasmamos en tus uñas cualquiera de tus ideas,
                 desde las más sencillas a las más atrevidas.`,
-            image: "./images/imagesServices/cejas.png",
-            services_list: [
-                "Service 1",
-                "Service 2",
-                "Service 3",
-                "Service 4",
-                "Service 5",
-                "Service 6",
-                "Service 7",
-                "service 8"
-            ]
-        }
+        image: "./images/imagesServices/cejas.png",
+        services_list: [
+            "Service 1",
+            "Service 2",
+            "Service 3",
+            "Service 4",
+            "Service 5",
+            "Service 6",
+            "Service 7",
+            "service 8"
+        ]
+    }
     ,
-        {
-            name: "Cejas",
-            description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
+    {
+        name: "Cejas",
+        description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
                 Plasmamos en tus uñas cualquiera de tus ideas,
                 desde las más sencillas a las más atrevidas.`,
-            image: "./images/imagesServices/cejas.png",
-            services_list: [
-                "Service 1",
-                "Service 2",
-                "Service 3",
-                "Service 4",
-                "Service 5",
-                "Service 6",
-                "Service 7",
-                "service 8"
-            ]
-        }
+        image: "./images/imagesServices/cejas.png",
+        services_list: [
+            "Service 1",
+            "Service 2",
+            "Service 3",
+            "Service 4",
+            "Service 5",
+            "Service 6",
+            "Service 7",
+            "service 8"
+        ]
+    }
+    ,
+    {
+        name: "Cejas",
+        description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
+                Plasmamos en tus uñas cualquiera de tus ideas,
+                desde las más sencillas a las más atrevidas.`,
+        image: "./images/imagesServices/cejas.png",
+        services_list: [
+            "Service 1",
+            "Service 2",
+            "Service 3",
+            "Service 4",
+            "Service 5",
+            "Service 6",
+            "Service 7",
+            "service 8"
+        ]
+    }
+    ,
+    {
+        name: "Cejas",
+        description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
+                Plasmamos en tus uñas cualquiera de tus ideas,
+                desde las más sencillas a las más atrevidas.`,
+        image: "./images/imagesServices/cejas.png",
+        services_list: [
+            "Service 1",
+            "Service 2",
+            "Service 3",
+            "Service 4",
+            "Service 5",
+            "Service 6",
+            "Service 7",
+            "service 8"
+        ]
+    }
+    ,
+    {
+        name: "Cejas",
+        description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
+                Plasmamos en tus uñas cualquiera de tus ideas,
+                desde las más sencillas a las más atrevidas.`,
+        image: "./images/imagesServices/cejas.png",
+        services_list: [
+            "Service 1",
+            "Service 2",
+            "Service 3",
+            "Service 4",
+            "Service 5",
+            "Service 6",
+            "Service 7",
+            "service 8"
+        ]
+    }
+    ,
+    {
+        name: "Cejas",
+        description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
+                Plasmamos en tus uñas cualquiera de tus ideas,
+                desde las más sencillas a las más atrevidas.`,
+        image: "./images/imagesServices/cejas.png",
+        services_list: [
+            "Service 1",
+            "Service 2",
+            "Service 3",
+            "Service 4",
+            "Service 5",
+            "Service 6",
+            "Service 7",
+            "service 8"
+        ]
+    }
 ]
 
 const generateCards = () => servicesObj.map((item) => {
@@ -44,12 +116,20 @@ const generateCards = () => servicesObj.map((item) => {
 
         <div key={item.name} className='card-service'>
             <div className='front-card'>
-                <img alt={item.name} src={item.image} />
-                <h2>{item.name}</h2>
-                <p>{item.description}</p>
+                <div className='topPart'>
+                    <img alt={item.name} src={item.image} />
+                    <h2>{item.name}</h2>
+                </div>
+                <div className='bottomPart'>
 
-                <button>Ver Tratamientos</button>
-                <button>Reservar cita</button>
+                    <p>{item.description}</p>
+
+                    <div className='divButtons'>
+                        <button>Ver Tratamientos</button>
+                        <button>Reservar cita</button>
+                    </div>
+
+                </div>
             </div>
             {/*
                 <div className='back-card'>
