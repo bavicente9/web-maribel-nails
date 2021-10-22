@@ -1,6 +1,6 @@
 import './Header.css'
 
-
+//TODO: nav
 
 const Header = () => {
     return (
@@ -10,10 +10,15 @@ const Header = () => {
 
             </div>
             <div className='nav-container'>
-                <a href="" id ='btn-appointment'>Reservar cita</a>
-                <a href="">Contacto</a>
-                <a href="">Servicios</a>
-                <a href="">Inicio</a>
+                {/*
+
+                    <a href="" id ='btn-appointment'>Reservar cita</a>
+                    <a href="">Contacto</a>
+                    <a href="">Servicios</a>
+                    <a href="">Inicio</a>
+                
+                */
+                }
             </div>
         </header>
     )

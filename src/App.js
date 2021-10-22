@@ -1,56 +1,19 @@
 
 import './App.css';
 import Header from './Components/Header/Header';
+import Slider from './Components/Slider/Slider';
+import Services from './Components/Services/Services';
 
 
 
-const styles = {
-  general: {
-    backgroundColor: '#000',
-    color: "#fff",
-    padding: '15px 20px',
-   borderRadius: '5px',
-     height: 100
-  }
-}
 
 const App = () => {
   return (
     <div>
-      <Header></Header>
-      <div id = 'slider' >
-        <img alt='local' src='Components\Slider\spiral-nails.jpg'></img>
-      </div>
-      <div id ='body'>
-        1111oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
-        oaeu<br/>
+      <Header />
+      <Slider />
+      <Services />    
+      <div id='body'>
       </div>
 
     </div>

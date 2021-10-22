@@ -13,7 +13,7 @@
       width: 100%;
       height: 46px;
       overflow: hidden;
-      
+      z-index: 50;
     }    
     
     #logo{
@@ -23,7 +23,7 @@
         height: 45px;
         width: 40%;
     }
-    img{
+    #logo img{
     width: 90px;
     height: 45px;
     margin-left: 50px;

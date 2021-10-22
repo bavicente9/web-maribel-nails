@@ -1,0 +1,23 @@
+
+.slider-container{
+    margin: 0px 50px 25px;
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.slider-content {
+    height: 100%;
+    white-space: nowrap;
+    transition-duration: 0.4s;
+
+
+}
+
+.slider-content img{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    
+}
