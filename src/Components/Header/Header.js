@@ -1,3 +1,5 @@
+
+import ButtonAppointment from '../BtnAppointment/ButtonAppointment';
 import './Header.css'
 
 //TODO: nav
@@ -10,15 +12,13 @@ const Header = () => {
 
             </div>
             <div className='nav-container'>
-                {/*
 
-                    <a href="" id ='btn-appointment'>Reservar cita</a>
-                    <a href="">Contacto</a>
-                    <a href="">Servicios</a>
-                    <a href="">Inicio</a>
-                
-                */
-                }
+                <ButtonAppointment className='barMenu-btn-Appointment' />
+                {/*
+                <a href="">CONTACTO</a>
+                <a href="">SERVICIOS</a>
+                <a href="">INICIO</a>
+                */ }
             </div>
         </header>
     )

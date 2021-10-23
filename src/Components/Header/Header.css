@@ -2,6 +2,7 @@
     --main-color: #F58ED6;
   }
 
+
   
   #header{
       position: -webkit-sticky;
@@ -38,7 +39,7 @@
 
 .nav-container a{
     width: 125px;
-    height: 40px;
+    height:100%;
 
     font-size: 17px;
     float: right;
@@ -49,23 +50,37 @@
     padding: 0px;
     margin-top: 3px;
     margin-bottom: 3px;
-
+    
     text-decoration: none;
     border-left: solid 1px #000;
     
-    
+    color: #000;
 }    
 
-.nav-container a:nth-child(2){
+.nav-container a:nth-child(1){
     border-right: solid 1px #000;
+    margin-right: 50px;
 }
 
-#btn-appointment{
+
+.nav-container a:hover{
+    background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
+}
+
+.nav-container .barMenu-btn-Appointment{
     border-left: none;
     background-color: #fff;
     border-radius: 10px;
-    margin-right: 50px;
+    margin-right: 15px;
     margin-left: 15px;
     color: var(--main-color) ;
+    height: 40px;
+    
+}
+
+.nav-container .barMenu-btn-Appointment:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
     
 }

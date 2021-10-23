@@ -1,0 +1,18 @@
+
+.button-Appointment{
+background: #fff;
+border: none;
+border: solid 1px var(--main-color);
+border-radius: 10px;
+height: 50px;
+width: 150px;
+margin: 5px;
+font-size: 20px;
+font-family: 'Crimson Text', serif;
+color: var(--main-color);
+cursor: pointer;
+}
+
+.button-Appointment:hover {
+    background-color: #f3a8dd58;
+}

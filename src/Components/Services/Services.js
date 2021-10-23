@@ -1,7 +1,10 @@
+import { useState } from 'react'
+import Card from './card/Card'
 import './Services.css'
 
 const servicesObj = [
 
+
     {
         name: "Cejas",
         description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
@@ -19,8 +22,9 @@ const servicesObj = [
             "service 8"
         ]
     }
-    ,
-    {
+
+
+    , {
         name: "Cejas",
         description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
                 Plasmamos en tus uñas cualquiera de tus ideas,
@@ -37,8 +41,8 @@ const servicesObj = [
             "service 8"
         ]
     }
-    ,
-    {
+
+    , {
         name: "Cejas",
         description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
                 Plasmamos en tus uñas cualquiera de tus ideas,
@@ -55,8 +59,8 @@ const servicesObj = [
             "service 8"
         ]
     }
-    ,
-    {
+
+    , {
         name: "Cejas",
         description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
                 Plasmamos en tus uñas cualquiera de tus ideas,
@@ -73,8 +77,8 @@ const servicesObj = [
             "service 8"
         ]
     }
-    ,
-    {
+
+    , {
         name: "Cejas",
         description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
                 Plasmamos en tus uñas cualquiera de tus ideas,
@@ -91,8 +95,8 @@ const servicesObj = [
             "service 8"
         ]
     }
-    ,
-    {
+
+    , {
         name: "Cejas",
         description: `Uñas acrílicas, esmaltado permanente y manicura perfecta.
                 Plasmamos en tus uñas cualquiera de tus ideas,
@@ -109,48 +113,20 @@ const servicesObj = [
             "service 8"
         ]
     }
+    
 ]
 
-const generateCards = () => servicesObj.map((item) => {
-    return (
 
-        <div key={item.name} className='card-service'>
-            <div className='front-card'>
-                <div className='topPart'>
-                    <img alt={item.name} src={item.image} />
-                    <h2>{item.name}</h2>
-                </div>
-                <div className='bottomPart'>
-
-                    <p>{item.description}</p>
-
-                    <div className='divButtons'>
-                        <button>Ver Tratamientos</button>
-                        <button>Reservar cita</button>
-                    </div>
-
-                </div>
-            </div>
-            {/*
-                <div className='back-card'>
-                <h2>Title</h2>
-                <ls>
-                    <ol>aeoau</ol>
-                    <ol>aeoau</ol>
-                    <ol>aeoau</ol>
-                </ls>
-            </div>
-            */}
-        </div>
-
+/*return all cards with front and back parts*/
+const generateCards = () => servicesObj.map((item, index) => {
+    return(
+        <Card key = {index} item = {item} index = {index} />
     )
+                
 })
 
 function Services() {
-    const getJson = () => {
-        const obj = getJson
-    }
-
+  //  const [activeCard , setActiveCard] = useState(-1)
     return (
         <div className='services'>
             <h1>Services</h1>
