@@ -14,11 +14,11 @@ const Header = () => {
             <div className='nav-container'>
 
                 <ButtonAppointment className='barMenu-btn-Appointment' />
-                {/*
+                
                 <a href="">CONTACTO</a>
                 <a href="">SERVICIOS</a>
                 <a href="">INICIO</a>
-                */ }
+                 
             </div>
         </header>
     )

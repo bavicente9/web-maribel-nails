@@ -42,6 +42,7 @@
     height:100%;
 
     font-size: 17px;
+    font-weight: 500;
     float: right;
     display: flex;
     justify-content: center;
@@ -81,6 +82,7 @@
 .nav-container .barMenu-btn-Appointment:hover{
     color: #fff;
     border: 1px solid #fff;
-    background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
-    
+    background-color: var(--main-color);
+   /* background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
+    */
 }

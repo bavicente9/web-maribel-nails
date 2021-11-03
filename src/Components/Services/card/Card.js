@@ -1,35 +1,12 @@
 import ButtonAppointment from "../../BtnAppointment/ButtonAppointment"
-import { useState, useEffect } from 'react'
 
 import './Card.css'
 
+//return a card with the props information
 const Card = (props) => {
-    const [partVisible, setPartVisible] = useState('front-card')
     const infoCard = props.item
     const index = props.index
-        useEffect(()=>{ 
-            const frontCard = document.getElementById(`${index}front-card`)
-            const backCard = document.getElementById(`${index}back-card`)
-            if (partVisible === 'front-card') {
-                frontCard.style.transform = 'rotateY(0deg)'
-                backCard.style.transform = 'rotateY(180deg)'
-            } else {
-                frontCard.style.transform = 'rotateY(180deg)'
-                backCard.style.transform = 'rotateY(0deg)'
-                
-            }
-        } , [partVisible])
 
-        //flip a card 
-        const flipCard = () => {
-            console.log('call' , partVisible);
-            if (partVisible ==='front-card') {
-                setPartVisible('back-card')
-            } else {
-                setPartVisible('front-card')
-            }
-        }
-    
     return (
 
         <div className='card-service'>
@@ -43,7 +20,7 @@ const Card = (props) => {
                     <p>{infoCard.description}</p>
 
                     <div className='divButtons'>
-                        <button className='btn-trataments' onClick = {flipCard}>TRATAMIENTOS</button>
+                        <button className='btn-trataments' onClick = {props.handleChange}>TRATAMIENTOS</button>
                         <ButtonAppointment />
                         
                     </div>

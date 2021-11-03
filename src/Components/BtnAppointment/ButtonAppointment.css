@@ -9,8 +9,11 @@ width: 150px;
 margin: 5px;
 font-size: 20px;
 font-family: 'Crimson Text', serif;
+font-weight: 500;
 color: var(--main-color);
 cursor: pointer;
+
+
 }
 
 .button-Appointment:hover {
