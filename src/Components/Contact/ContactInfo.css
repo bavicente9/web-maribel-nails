@@ -1,0 +1,136 @@
+/*Font Roboto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+/*ContactInfo*/
+
+.contactInfoContainer {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.contactInfoContainer .contactInfo {
+    margin: 15px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    width: auto;
+    height: content;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px var(--main-color);
+    border-radius: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "title title" "info1 info2" "socialMedia socialMedia";
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: content 1fr min-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactInfo .info {
+    margin: 0 25px;
+    text-align: left;
+    min-width: min-content;
+    max-width: 100%;
+}
+
+/*Grid areas*/
+
+.contactInfo .title {
+    max-width: 100%;
+    margin: 25px 0px 0px;
+    text-align: center;
+    grid-area: title;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: var(--main-color);
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.contactInfo .info1 {
+    grid-area: info1;
+    align-self: start;
+}
+
+.contactInfo .info2 {
+    grid-area: info2;
+    align-self: start;
+}
+
+.contactInfo .socialMedia {
+    max-width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+    width: auto;
+    grid-area: socialMedia;
+}
+
+/**/
+
+.contactInfo .infoShedule h2 {
+    font-family: 'Roboto', sans-serif, cursive;
+}
+
+
+.contactInfo .info h2 {
+    font-family: 'Roboto', sans-serif, cursive;
+    font-size: 25px;
+}
+
+.contactInfo .info h3 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif, cursive;
+    font-size: 20px;
+    line-height: 25px;
+}
+.contactInfo .info p {
+    margin: 0 ;
+    font-family: 'Roboto', sans-serif, cursive;
+    font-size: 18px;
+}
+
+
+
+
+/*icons with info*/
+/*Location info*/
+
+.info__location{
+    display: flex;
+    flex-direction: row;
+}
+
+#info__location-icon {
+    background-image: url(IconLocation.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 5px 0px 0px;
+    min-height: 25px;
+    min-width: 25px;
+}
+/*Phone info*/
+.info__tlf{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+}
+#info__tlf-icon {
+    background-image: url(IconWhatsapp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 5px 0px 0px;
+    display: block;
+    min-height: 25px;
+    min-width: 25px;
+}
+
+/*Responsive design*/
+
+@media screen and (max-width: 700px) {
+
+    .contactInfoContainer .contactInfo {
+        width: 90%;
+        grid-template-areas: 'title' 'info1' 'info2' 'socialMedia';
+        grid-template-columns:  minmax(100%, 1fr);
+    }
+
+}

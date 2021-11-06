@@ -1,0 +1,50 @@
+
+
+.contactContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
+    grid-template-rows: repeat(auto-fit, minmax(550px , 1fr));
+    gap:25px 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contactContainer{
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+/*DELETE THIS*/
+.contactContainer .contactLocationContainer{
+    width:  min-content;
+    
+    height: 600px;
+    
+}
+
+
+
+@media screen and (max-width: 700px) {
+    
+    
+    .contactContainer {
+        grid-template-columns: repeat(auto-fit, 100%);
+        grid-template-rows: repeat(auto-fit, minmax(550px , 1fr));
+    }
+    
+    
+    .contactInfoContainer .contactInfo {
+ 
+    }
+
+}
+/*
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}
+*/
