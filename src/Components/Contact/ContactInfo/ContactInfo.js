@@ -1,26 +1,6 @@
 import SocialMediaButtons from '../../SocialMediaButtons/SocialMediaButtons'
 import './ContactInfo.css'
-const contactInfo = {
-    location: `
-    Getafe  c/ Nombre calle principal calle Secundaria  nº 00 e / Nombre calle principal calle Secundaria  nº 00
-     `
-    , tlf: `0123456789`
-
-    , schedule: [
-        {
-            time: 'Lunes - Viernes'
-            , hours: '08:00 - 20:00'
-        }
-        , {
-            time: 'Sabado'
-            , hours: '08:00 - 20:00'
-        }
-        , {
-            time: 'Domingo'
-            , hours: '08:00 - 20:00'
-        }
-    ]
-}
+import contactInfo from '../../InfoJSONs/ContactInfo.json'
 
 
 const ContactInfo = () => {
