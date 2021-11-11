@@ -1,0 +1,85 @@
+.footer{
+    background-color:var(--main-color);
+    width: 100%;
+    height: 275px;
+    font-size: 18px;
+    position: relative;
+}
+.footer .whiteDiv{
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    clip-path: ellipse(100% 100% at 0% 100%);
+    
+    height: 275px;
+    width: 75%;
+}
+
+.footer .translucidLayer{
+    background-color: rgba(0, 0,0,0.25);
+    position: absolute;
+    bottom: 0;
+    height: 275px;
+    width: 100%;
+    z-index: 0;
+}
+.footerContainer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    margin: 25px;
+    display: grid;
+    grid-template-columns: min-content 1fr 1fr;
+    grid-template-rows:  250px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 25px;
+}
+.footerContainer .logoAndSocialMediaContainer img{
+    width: 270px;
+    height: 120px;
+}
+
+.footerContainer  .info2 p{
+    display: inline-block;
+    margin: 0;
+}
+.footerContainer  .info2 schedule div{
+    margin: 15px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 700px) {
+    
+    
+    .footer{
+        font-size: 10px;
+        height: 225px;
+    }
+    .footer .whiteDiv{
+        height: 225px;
+    }
+    .footer .translucidLayer{
+        height: 225px;
+    }
+    .footerContainer{
+        margin: 0;
+        gap: 5px;
+        grid-template-rows: 250px;
+    }
+    .footerContainer .logoAndSocialMediaContainer img{
+        width: 100px ;
+        height: 50px;
+    }
+    .footerContainer .info2 .scheduleInfo{
+        height: 25px;
+        margin: 5px;
+    }
+}

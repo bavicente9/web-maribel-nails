@@ -17,9 +17,7 @@ const App = () => {
       <Services />
       <Contact />
       <Footer />
-      <div id = 'footer' style = { {display:'inline-block', width : '100%' , height : '275px', background :'pink' }}>
-        <h1>Footer</h1>
-      </div>
+      
     </div>
   )
 }
