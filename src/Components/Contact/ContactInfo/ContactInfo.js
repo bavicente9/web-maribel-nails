@@ -1,8 +1,8 @@
-import SocialMediaButtons from '../SocialMediaButtons/SocialMediaButtons'
+import SocialMediaButtons from '../../SocialMediaButtons/SocialMediaButtons'
 import './ContactInfo.css'
 const contactInfo = {
     location: `
-    Getafe  c/ Nombre calle principal calle Secundaria  nº 00 e  c/ Nombre calle principal calle Secundaria  nº 00e  c/ Nombre calle principal calle Secundaria  nº 00e  c/ Nombre calle principal calle Secundaria  nº 00e  c/ Nombre calle principal calle Secundaria  nº 00
+    Getafe  c/ Nombre calle principal calle Secundaria  nº 00 e / Nombre calle principal calle Secundaria  nº 00
      `
     , tlf: `0123456789`
 
