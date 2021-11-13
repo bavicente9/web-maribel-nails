@@ -20,10 +20,7 @@ const Slider = () => {
 
     const images = getPathImages();
     const delay = 4000;
-   
-    const timeOutStatus = () => {
-        
-    }
+ 
     
     
     //each x delay change the index
@@ -47,7 +44,6 @@ const Slider = () => {
     const handleChange = (direction) =>{
 
         if (direction === 'next' ) {
-            clearTimeout(timeOutStatus)
             setIndex(() => 
                 index === images.length-1 ? 0 : index+1
             )
