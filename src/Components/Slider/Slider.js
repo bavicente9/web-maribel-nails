@@ -19,21 +19,51 @@ const Slider = () => {
     const [index, setIndex] = useState(0)
 
     const images = getPathImages();
-    const delay = 3000;
+    const delay = 4000;
    
-
+    const timeOutStatus = () => {
+        
+    }
+    
+    
+    //each x delay change the index
     useEffect(() => {
-        setTimeout(() =>setIndex((prevIndex) =>
+        const interval = setInterval(() =>setIndex((prevIndex) =>
               prevIndex === images.length - 1 ? 0 : prevIndex + 1
             ),
           delay
         );
-        return () => {};
+        return () => {
+            if(interval){
+                clearInterval(interval)
+            }
+        };
       }, [index]);
 
 
+      //it change the index 1 back or 1 next
+      //if the index is 0 and try to back 1 position it will return the last position
+      //if the index is the last position and try to pass to next position it will return the start position 
+    const handleChange = (direction) =>{
+
+        if (direction === 'next' ) {
+            clearTimeout(timeOutStatus)
+            setIndex(() => 
+                index === images.length-1 ? 0 : index+1
+            )
+        } else if (direction === 'back' && index >= 0){
+            setIndex(() => 
+                index === 0 ? images.length -1 : index-1
+            )
+            
+        }
+    }
+
     return (
         <div className='slider-container'>
+            <button className ='rightArrow' onClick = {() =>handleChange('next')}/>
+            <button className ='leftArrow' onClick = {() =>handleChange('back')}/>
+
             <div className='slider-content' style = {{transform:`translateX(${-index *100}%)`}}>
                 {
                     images.map(image => {
