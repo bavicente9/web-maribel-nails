@@ -1,10 +1,11 @@
 * {
     scroll-behavior: smooth;
-
 }
+
 /*Remove blue highlight */
-button,a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+button, a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 :root {
@@ -75,7 +76,7 @@ button,a {
     margin-right: 50px;
 }
 
-.header .nav-container  a:hover {
+.header .nav-container a:hover {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
@@ -99,16 +100,13 @@ button,a {
 }
 
 @media screen and (max-width: 700px) {
-
     .header .nav-container {
         visibility: hidden;
     }
-
-    .header #logoHeader{
+    .header #logoHeader {
         margin-left: 15px;
     }
-
-    .header .responsiveMenu .buttons{
+    .header .responsiveMenu .buttons {
         position: absolute;
         right: 0;
         top: 0;
@@ -123,16 +121,14 @@ button,a {
         align-content: center;
         justify-items: center;
         align-items: center;
-
         overflow: hidden;
     }
-
-    .responsiveMenu .btnResponsiveMenu{
+    .responsiveMenu .btnResponsiveMenu {
         width: 50px;
         height: 70%;
         z-index: 110;
         border: none;
-        background:  no-repeat center;
+        background: no-repeat center;
         background-size: contain;
         cursor: pointer;
     }
@@ -151,28 +147,22 @@ button,a {
         border: 1px solid #fff;
         background-color: var(--main-color);
     }
-
-
-    .header{
+    .header {
         overflow: visible;
     }
     /*Menu Options*/
-    .responsiveMenu .nav-container-responsive{
+    .responsiveMenu .nav-container-responsive {
         visibility: hidden;
         position: absolute;
         z-index: 120;
         right: 0%;
         top: 45px;
-
         width: 100%;
-        height:min-content ;
-        
-        overflow:  hidden;
+        height: min-content;
+        overflow: hidden;
         border-radius: 0 0 20px 20px;
-
     }
-
-    .responsiveMenu .nav-container-responsive ul{
+    .responsiveMenu .nav-container-responsive ul {
         background: var(--main-color);
         position: relative;
         list-style: none;
@@ -185,13 +175,11 @@ button,a {
         animation-iteration-count: 1;
         animation-duration: 0.3s;
         animation-fill-mode: forwards;
-
     }
-    .responsiveMenu .nav-container-responsive ul li{
-        border-bottom:1px solid #fff ;
+    .responsiveMenu .nav-container-responsive ul li {
+        border-bottom: 1px solid #fff;
     }
-    .responsiveMenu .nav-container-responsive a{
-
+    .responsiveMenu .nav-container-responsive a {
         display: block;
         font-size: 24px;
         text-decoration: none;
@@ -200,30 +188,26 @@ button,a {
         padding: 10px;
         color: #fff;
     }
-    .responsiveMenu .nav-container-responsive a:hover{
-
+    .responsiveMenu .nav-container-responsive a:hover {
         background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
     }
-
-    .responsiveMenu .nav-container-responsive a:last-child{
-
-        border-bottom:none;
+    .responsiveMenu .nav-container-responsive a:last-child {
+        border-bottom: none;
     }
-
     /*Animation to show and hidde options*/
     @keyframes showMenu {
-        from{
+        from {
             right: -100%;
         }
-        to{
+        to {
             right: 2.5%;
         }
     }
     @keyframes hiddeMenu {
-        from{
+        from {
             right: 2.5%;
         }
-        to{
+        to {
             right: -100%;
         }
     }
