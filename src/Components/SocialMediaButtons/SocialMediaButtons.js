@@ -1,25 +1,8 @@
 import './SocialMediaButtons.css'
+import contactInfo from '../InfoJSONs/ContactInfo.json'
 
-const socialMedia = [
-    {
-        name: 'Facebook',
-        link: 'https://www.fb.com',
-        image : './images/icons/IconFacebook.png'
-    }
-    , {
-        name: 'Instagram',
-        link: 'https://www.instagram.com',
-        image : './images/icons/IconInstagram.png'
-    }
-    , {
-        name: 'Booksy',
-        link: 'https://www.booksy.com',
-        image : './images/icons/IconBooksy.png'
-    }
-]
-
-const socialMediaButtons = () => {
-
+const socialMediaButtons = (props) => {
+    const socialMedia = contactInfo.socialMedia
     //open a new tab with its respective link
     const handleClick = (link) => {
         window.open(
@@ -42,7 +25,7 @@ const socialMediaButtons = () => {
 
 
     return (
-        <div className ='socialMediaButtonsContainer'>
+        <div className ={`socialMediaButtonsContainer ${props.className}`}>
             {generateButtons()}
         </div>
     )

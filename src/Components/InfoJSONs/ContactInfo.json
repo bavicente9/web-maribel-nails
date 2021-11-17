@@ -18,6 +18,23 @@
             , "hours": "08:00 - 20:00"
         }
     ]
+    ,"socialMedia" : [
+        {
+            "name": "Facebook",
+            "link": "https://www.fb.com",
+            "image" : "./images/icons/IconFacebook.png"
+        }
+        , {
+            "name": "Instagram",
+            "link": "https://www.instagram.com",
+            "image" : "./images/icons/IconInstagram.png"
+        }
+        , {
+            "name": "Booksy",
+            "link": "https://www.booksy.com",
+            "image" : "./images/icons/IconBooksy.png"
+        }
+    ]
 }
 
 

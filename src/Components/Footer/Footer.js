@@ -10,7 +10,7 @@ function Footer() {
 
                 <div className='logoAndSocialMediaContainer'>
                     <img alt='logo' src='./images/logo.jpg' />
-                    <SocialMediaButtons />
+                    <SocialMediaButtons className = 'footerSocialMedia' />
                 </div>
                 <div className='info1'>
                     <p><b>Tlf:</b>{contactInfo.tlf}</p>

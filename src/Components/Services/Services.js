@@ -53,7 +53,7 @@ function Services() {
 
     return (
         <div className='services' id ='services'>
-            <h1>Services</h1>
+            <h1>SERVICIOS</h1>
             <div className='cards-container'>
                 {generateCards()}
 

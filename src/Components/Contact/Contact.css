@@ -7,14 +7,12 @@
     gap:25px 10%;
     align-items: center;
     justify-content: center;
-}
-
-
-.contactContainer{
-    
     height: 100%;
     width: 100%;
+    margin-bottom: 100px;
 }
+
+
 
 
 
@@ -27,9 +25,4 @@
         grid-template-rows: repeat(auto-fit, minmax(550px , 1fr));
     }
     
-    
-    .contactInfoContainer .contactInfo {
- 
-    }
-
 }

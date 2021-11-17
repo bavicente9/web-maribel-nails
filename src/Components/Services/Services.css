@@ -4,15 +4,18 @@
 }
 
 .cards-container {
-    position: relative;
+    overflow: visible;
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(auto-fill, 325px);
     grid-template-rows: repeat(auto-fill, minmax(530px, 1fr));
-    gap: 25px;
+    gap: 50px;
     justify-content: center;
     text-align: center;
     align-items: center;
     margin: 25px;
+
+    margin-bottom: 100px;
 }
 
 

@@ -2,8 +2,8 @@
     display: grid;
     text-align: center;
     
-    grid-template-columns: repeat(3, 50px);
-    grid-template-rows: 50px;
+    grid-template-columns: repeat(3, min-content);
+    grid-template-rows: min-content;
     justify-content: center;
     align-items: center;
     
@@ -16,22 +16,8 @@
     border: none;
     background:none ;
     background-size: cover;
-
+    
     cursor: pointer;
     border-radius: 5px;
 }
 
-
-@media screen and (max-width: 700px) {
-    
-    .socialMediaButtonsContainer{
-        grid-template-columns: repeat(3, 25px);
-        grid-template-rows: 25px;
-        gap: 5px;
-    }
-   .socialMediaButton{
-       width: 25px;
-       height: 25px;
-   }
-
-}
