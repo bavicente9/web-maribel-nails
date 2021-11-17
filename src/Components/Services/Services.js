@@ -52,7 +52,7 @@ function Services() {
 
 
     return (
-        <div className='services'>
+        <div className='services' id ='services'>
             <h1>Services</h1>
             <div className='cards-container'>
                 {generateCards()}

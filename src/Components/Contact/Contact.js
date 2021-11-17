@@ -4,7 +4,7 @@ import ContactLocationMap from "./LocationMap/ContactLocationMap";
 const Contact = () => {
 
     return (
-        <div className='contact'>
+        <div className='contact' id = 'contact'>
             <div className='contactContainer' >
                 <ContactInfo />
                 <ContactLocationMap />

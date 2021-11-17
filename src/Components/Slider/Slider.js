@@ -56,7 +56,7 @@ const Slider = () => {
     }
 
     return (
-        <div className='slider-container'>
+        <div className='slider-container' id = 'home'>
             <button className ='rightArrow' onClick = {() =>handleChange('next')}/>
             <button className ='leftArrow' onClick = {() =>handleChange('back')}/>
 
