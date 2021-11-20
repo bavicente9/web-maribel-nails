@@ -1,22 +1,18 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Maribel Nail's",
+  "name": "Maribel Nail's",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "images/logo.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-jpg"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "images/logo.jpg",
+      "type": "image/logo.jpg",
       "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
+    
   ],
   "start_url": ".",
   "display": "standalone",
