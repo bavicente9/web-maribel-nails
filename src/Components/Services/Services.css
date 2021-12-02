@@ -3,6 +3,10 @@
     --main-color: #F58ED6;
 }
 
+.services h1{
+    margin: 50px;
+}
+
 .cards-container {
     overflow: visible;
     height: fit-content;

@@ -1,0 +1,21 @@
+{
+  "short_name": "Maribel Nail's",
+  "name": "Maribel Nail's",
+  "icons": [
+    {
+      "src": "images/logo.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-jpg"
+    },
+    {
+      "src": "images/logo.jpg",
+      "type": "image/logo.jpg",
+      "sizes": "192x192"
+    }
+    
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

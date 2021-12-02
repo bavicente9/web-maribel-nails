@@ -27,14 +27,25 @@
     cursor: pointer;
 }
 
-.slider-container .rightArrow{
+.slider-container .rightArrow {
     border-color: transparent transparent transparent #7e7e7e;
     border-width: 35px 0 35px 25px;
     right: 0;
 }
-.slider-container .leftArrow{
+
+.slider-container .leftArrow {
     border-color: transparent #7e7e7e transparent transparent;
     border-width: 35px 25px 35px 0;
+
+}
+
+.slider-container .rightArrow:hover {
+    border-color: transparent transparent transparent #cccccc;
+
+}
+
+.slider-container .leftArrow:hover {
+    border-color: transparent #cccccc transparent transparent;
 
 }
 
@@ -54,30 +65,32 @@
 }
 
 @media screen and (max-width: 700px) {
-    
-    .slider-container{
+
+    .slider-container {
         margin: 15px;
         margin-top: 0;
         min-height: 250px;
     }
-    
+
     /*Arrows*/
     .slider-container .rightArrow, .slider-container .leftArrow {
         margin-left: 5px;
-        margin-right:5px;
+        margin-right: 5px;
         bottom: 50%;
     }
-    
-    .slider-container .rightArrow{
+
+    .slider-container .rightArrow {
         border-color: transparent transparent transparent #7e7e7e;
         border-width: 25px 0 25px 25px;
         right: 0;
     }
-    .slider-container .leftArrow{
+
+    .slider-container .leftArrow {
         border-color: transparent #7e7e7e transparent transparent;
         border-width: 25px 25px 25px 0;
-        
+
     }
+
     /*images*/
     .slider-content img {
         min-height: 250px;

@@ -1,21 +1,21 @@
 
 
 {
-    "location": "Getafe  c/ Nombre calle principal calle Secundaria  nº 00 e / Nombre calle principal calle Secundaria  nº 00"
-    , "tlf": "0123456789"
+    "location": "Calle Dr Barraquer número, 17., 28903, Getafe"
+    , "tlf": "628935597"
     ,"email" : "awawa@oeuntoeh.com"
     , "schedule": [
         {
             "time": "Lunes - Viernes"
-            , "hours": "08:00 - 20:00"
+            , "hours": "10:00 - 19:00"
         }
         , {
             "time": "Sabado"
-            , "hours": "08:00 - 20:00"
+            , "hours": "10:00 - 14:50"
         }
         , {
             "time": "Domingo"
-            , "hours": "08:00 - 20:00"
+            , "hours": "Cerrado"
         }
     ]
     ,"socialMedia" : [
@@ -26,7 +26,7 @@
         }
         , {
             "name": "Instagram",
-            "link": "https://www.instagram.com",
+            "link": "https://www.instagram.com/maribelnails9545/",
             "image" : "./images/icons/IconInstagram.png"
         }
         , {
