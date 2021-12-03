@@ -134,5 +134,8 @@
         grid-template-columns:  minmax(100%, 1fr);
 
     }
+    .contactInfoContainer .titleHeader{
+        margin: 15px;
+    }
 
 }

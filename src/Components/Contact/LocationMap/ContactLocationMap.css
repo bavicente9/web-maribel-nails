@@ -19,3 +19,11 @@
     height: 100%;
     width: 100%;
 }
+
+
+@media screen and (max-width: 700px) {
+
+    .contactMapContainer h2{
+        margin: 15px;
+    }
+}

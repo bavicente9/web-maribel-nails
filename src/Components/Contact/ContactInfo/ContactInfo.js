@@ -6,7 +6,7 @@ import contactInfo from '../../InfoJSONs/ContactInfo.json'
 const ContactInfo = () => {
     return (
         <div className='contactInfoContainer' >
-            <h2>CONTACTO</h2>
+            <h2 className = 'titleHeader'>CONTACTO</h2>
             <div className='contactInfo'>
                 <h1 className='info title'>MARIBEL NAILS </h1>
                 <div className='info info1'>

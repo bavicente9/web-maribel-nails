@@ -106,9 +106,13 @@ button, a {
     .header .nav-container {
         visibility: hidden;
     }
+    .header .responsiveMenu{
+        visibility: visible;
+    }
     .header #logoHeader {
         margin-left: 15px;
     }
+   
     .header .responsiveMenu .buttons {
         position: absolute;
         right: 0;

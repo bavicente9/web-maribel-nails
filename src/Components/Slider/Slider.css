@@ -13,12 +13,12 @@
 /*Arrows*/
 
 .slider-container .rightArrow, .slider-container .leftArrow {
-    width: 0;
-    height: 0;
     border-style: solid;
     background: none;
     position: absolute;
     z-index: 10;
+    width: 4vw;
+    height:4vw;
 
     bottom: 50%;
     margin-left: 15px;
@@ -28,24 +28,27 @@
 }
 
 .slider-container .rightArrow {
-    border-color: transparent transparent transparent #7e7e7e;
-    border-width: 35px 0 35px 25px;
     right: 0;
+    border: none;
+    background:no-repeat url('ArrowStart.svg');
+    background-size: cover;
 }
 
 .slider-container .leftArrow {
-    border-color: transparent #7e7e7e transparent transparent;
-    border-width: 35px 25px 35px 0;
+    border: none;
+    background:no-repeat url('ArrowStart.svg');
+    background-size: cover;
+    transform: rotate(-180deg);
 
 }
 
 .slider-container .rightArrow:hover {
-    border-color: transparent transparent transparent #cccccc;
+    background-image: url('ArrowHover.svg');
 
 }
 
 .slider-container .leftArrow:hover {
-    border-color: transparent #cccccc transparent transparent;
+    background-image: url('ArrowHover.svg');
 
 }
 
@@ -65,34 +68,36 @@
 }
 
 @media screen and (max-width: 700px) {
-
+    
     .slider-container {
         margin: 15px;
         margin-top: 0;
         min-height: 250px;
     }
-
+    
     /*Arrows*/
     .slider-container .rightArrow, .slider-container .leftArrow {
         margin-left: 5px;
         margin-right: 5px;
         bottom: 50%;
+        width: 8vw;
+        height:8vw;
+        
     }
-
-    .slider-container .rightArrow {
-        border-color: transparent transparent transparent #7e7e7e;
-        border-width: 25px 0 25px 25px;
-        right: 0;
-    }
-
-    .slider-container .leftArrow {
-        border-color: transparent #7e7e7e transparent transparent;
-        border-width: 25px 25px 25px 0;
-
-    }
-
+    
+    
     /*images*/
     .slider-content img {
         min-height: 250px;
     }
+}
+
+@media screen and (max-width: 700px) {
+    /*Arrows*/
+    .slider-container .rightArrow, .slider-container .leftArrow {
+        width: 10vw;
+        height:10vw;
+        
+    }
+
 }
