@@ -1,5 +1,6 @@
 * {
     scroll-behavior: smooth;
+    scroll-margin-top: 50px;
 }
 
 /*Remove blue highlight */

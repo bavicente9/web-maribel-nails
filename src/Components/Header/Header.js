@@ -1,6 +1,11 @@
 
+import { Link, useLocation} from 'react-router-dom';
 import ButtonAppointment from '../BtnAppointment/ButtonAppointment';
+
+//This is a solution to React Router's issue of not scrolling to #hash-fragments when using the <Link> component to navigate.
+import { HashLink } from 'react-router-hash-link';
 import './Header.css'
+import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
 
 
@@ -30,15 +35,18 @@ const Header = () => {
     return (
         <header className='header'>
             <div className='whiteDiv' />
+            <HashLink to ='/#home'> 
             <img id='logoHeader' alt='logo' src='./images/logo.jpg' />
+            </HashLink> 
 
             <div className='nav-container'>
 
                 <ButtonAppointment className='barMenu-btn-Appointment' />
 
-                <a href="#contact">CONTACTO</a>
-                <a href="#services">SERVICIOS</a>
-                <a href="#home">INICIO</a>
+                <Link to="/contact">CONTACTO</Link>
+
+                <HashLink to="/#services">SERVICIOS</HashLink>
+                <HashLink to="/#home">INICIO</HashLink>
 
             </div>
 
@@ -49,9 +57,9 @@ const Header = () => {
                 </div>
                 <div className='nav-container-responsive' id='responsiveMenu-navContainer'>
                     <ul id='menuOptionsList'>
-                        <li><a onClick={(e) => handleChangeTogleMenu(e)} href="#home" >INICIO</a></li>
-                        <li><a onClick={(e) => handleChangeTogleMenu(e)} href="#services">SERVICIOS</a></li>
-                        <li><a onClick={(e) => handleChangeTogleMenu(e)} href="#contact">CONTACTO</a></li>
+                        <li><HashLink onClick={(e) => handleChangeTogleMenu(e)} to="/#home" >INICIO</HashLink></li>
+                        <li><HashLink onClick={(e) => handleChangeTogleMenu(e)} to="/#services">SERVICIOS</HashLink></li>
+                        <li><Link onClick={(e) => handleChangeTogleMenu(e)} to="/contact">CONTACTO</Link></li>
                     </ul>
                 </div>
 
