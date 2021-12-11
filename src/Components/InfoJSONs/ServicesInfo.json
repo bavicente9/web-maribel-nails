@@ -2,97 +2,99 @@
 [
 
     {
-        "name": "Cejas",
+        "name": "Manicura",
         "description": "Uñas acrílicas, esmaltado permanente y manicura perfecta. Plasmamos en tus uñas cualquiera de tus ideas, desde las más sencillas a las más atrevidas.",
-        "image": "./images/imagesServices/cejas.png",
+        "image": "./images/imagesServices/manicura.png",
         "services_list": [
-            "Service 1",
-            "Service 2",
-            "Service 3",
-            "Service 4",
-            "Service 5",
-            "Service 6",
-            "Service 7",
-            "service 8"
+            "Manicura semipermanente",
+            "Uñas de acrílico",
+            "Pintar manos normal",
+            "Limar y pintar esmaltado tradicional",
+            "Manicura tradicional"
         ]
     },
     {
-        "name": "Cejas",
-        "description": "Uñas acrílicas, esmaltado permanente y manicura perfecta. Plasmamos en tus uñas cualquiera de tus ideas, desde las más sencillas a las más atrevidas.",
-        "image": "./images/imagesServices/cejas.png",
+        "name": "Depilación con hilo",
+        "description": "La depilación con hilo es una técnica precisa y sencilla donde eleminaremos el vello no deseado de una forma eficaz.",
+        "image": "./images/imagesServices/depilacionConHilo.png",
         "services_list": [
-            "Service 1",
-            "Service 2",
-            "Service 3",
-            "Service 4",
-            "Service 5",
-            "Service 6",
-            "Service 7",
-            "service 8"
+            "Depilación de cejas con hilo",
+            "Depilación de labio con hilo",
+            "Depilación patillas con hilo",
+            "Depilación de cara con hilo (cejas no incluidas)",
+            "Depilación de menton con hilo",
+            "Depilación de frente con hilo"
+        ]
+    },
+    
+    {
+        "name": "Depilación con cera",
+        "description": "Ofrecemos depilación con cera con la cual conseguimos resultados duraderos y de forma rápida.",
+        "image": "./images/imagesServices/depilacionConCera.png",
+        "services_list": [
+            "Depilación de cejas con cera",
+            "Depilación de axilas",
+            "Cera ingles integral",
+            "Cera ingles normal",
+            "Depilación de brazos",
+            "Laminado y depilacion de cejas",
+            "Henna cejas ",
+            "Depilación de piernas ",
+            "Depilación de 1/2 piernas",
+            "Depilación pecho",
+            "Depilación espalda",
+            "Depilación gluteos"
+
+        ]
+    },
+    
+    {
+        "name": "Pedicura",
+        "description": "Pedicura tradicional, semipermanente y más te ofrecemos el mejor cuidado de tus pies con resutados impecables.",
+        "image": "./images/imagesServices/pedicura.png",
+        "services_list": [
+            "Pedicura tradicional",
+            "Pedicura semipermanente",
+            "Pintar pies semipermanente",
+            "Pintar pies narmal",
+            "Cortar uñas de pies"
         ]
     },
     {
-        "name": "Cejas",
-        "description": "Uñas acrílicas, esmaltado permanente y manicura perfecta. Plasmamos en tus uñas cualquiera de tus ideas, desde las más sencillas a las más atrevidas.",
-        "image": "./images/imagesServices/cejas.png",
+        "name": "Cejas y Pestañas",
+        "description": "Composiciones asombrosas que deslumbraran tu mirada. Todo con la mejor calidad y variedad.",
+        "image": "./images/imagesServices/cejasYPestañas.png",
         "services_list": [
-            "Service 1",
-            "Service 2",
-            "Service 3",
-            "Service 4",
-            "Service 5",
-            "Service 6",
-            "Service 7",
-            "service 8"
+            "Liftin y tinte de pestañas",
+            "Henna cejas "
         ]
     },
     {
-        "name": "Cejas",
-        "description": "Uñas acrílicas, esmaltado permanente y manicura perfecta. Plasmamos en tus uñas cualquiera de tus ideas, desde las más sencillas a las más atrevidas.",
-        "image": "./images/imagesServices/cejas.png",
+        "name": "Masajes",
+        "description": "Nuestros masajes reparadores y relajantes también aportan beneficios fisiológicos para mejorar la salud de tu cuerpo. ",
+        "image": "./images/imagesServices/masajes.png",
         "services_list": [
-            "Service 1",
-            "Service 2",
-            "Service 3",
-            "Service 4",
-            "Service 5",
-            "Service 6",
-            "Service 7",
-            "service 8"
+            "Masaje antnicelulítico",
+            "Masaje relajante"
         ]
     },
     {
-        "name": "Cejas",
-        "description": "Uñas acrílicas, esmaltado permanente y manicura perfecta. Plasmamos en tus uñas cualquiera de tus ideas, desde las más sencillas a las más atrevidas.",
-        "image": "./images/imagesServices/cejas.png",
+        "name": "Maderoterapia",
+        "description": "No hay forma más natural de reducir los niveles de estrés, reafirmar y tonificar el cuerpo que masajeándolo con utensilios de madera. En esto consiste la maderoterapia.",
+        "image": "./images/imagesServices/maderoterapia.png",
         "services_list": [
-            "Service 1",
-            "Service 2",
-            "Service 3",
-            "Service 4",
-            "Service 5",
-            "Service 6",
-            "Service 7",
-            "service 8"
+            "Maderoterapia"
         ]
     },
     {
-        "name": "Cejas",
-        "description": "Uñas acrílicas, esmaltado permanente y manicura perfecta. Plasmamos en tus uñas cualquiera de tus ideas, desde las más sencillas a las más atrevidas.",
-        "image": "./images/imagesServices/cejas.png",
+        "name": "Faciales",
+        "description": "En Maribel Nail's te ofrecemos una excelente limpieza facial donde usamos las mejores tecnicas para que te sientas comoda y relajada derante el proceso.",
+        "image": "./images/imagesServices/faciales.png",
         "services_list": [
-            "Service 1",
-            "Service 2",
-            "Service 3",
-            "Service 4",
-            "Service 5",
-            "Service 6",
-            "Service 7",
-            "service 8"
+            "Limpieza facial"
         ]
     }
-    
-    
+
+
 ]
-    
-    
+

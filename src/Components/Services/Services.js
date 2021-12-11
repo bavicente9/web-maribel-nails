@@ -11,48 +11,48 @@ function Services() {
     const [prevActiveCard, setPrevActiveCard] = useState(-1)
 
     //this change the prevActiveCard before to change the new ActiveCard to flip the previous active card and show its front side 
-    const handleChangeActiveCard = (newActiveCard) =>{
+    const handleChangeActiveCard = (newActiveCard) => {
         setPrevActiveCard(activeCard)
         setActiveCard(newActiveCard)
     }
 
+   
     //to flip and show back Side to the active card. 
     useEffect(() => {
-        if(activeCard !== -1){
+        if (activeCard !== -1) {
             const frontCardSide = document.getElementById(`${activeCard}front-card`)
             const backCardSide = document.getElementById(`${activeCard}back-card`)
-            
-            
+
+
             frontCardSide.style.transform = 'rotateY(180deg)'
             backCardSide.style.transform = 'rotateY(0deg)'
         }
-        
+
     }, [activeCard])
-    
-    
+
+
     //to flip and show the previous active card's front side
     useEffect(() => {
-        if(prevActiveCard !== -1){
+        if (prevActiveCard !== -1) {
             const frontCardSide = document.getElementById(`${prevActiveCard}front-card`)
             const backCardSide = document.getElementById(`${prevActiveCard}back-card`)
-            
+
             frontCardSide.style.transform = 'rotateY(0deg)'
             backCardSide.style.transform = 'rotateY(180deg)'
         }
     }, [prevActiveCard])
-    
+
 
     /*return all cards with front and back parts*/
     const generateCards = () => servicesObj.map((item, index) => {
         return (
-            <Card key={index} item={item} index={index} handleChange={() => handleChangeActiveCard(index)} />
+            <Card key={index} item={item} index={index} handleChange={() => handleChangeActiveCard(index)} handleResetCard = { () =>handleChangeActiveCard(-1)} />
         )
 
     })
 
-
     return (
-        <div className='services' id ='services'>
+        <div className='services' id='services'>
             <h1>SERVICIOS</h1>
             <div className='cards-container'>
                 {generateCards()}

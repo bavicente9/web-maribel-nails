@@ -15,8 +15,6 @@ function Footer() {
                 <div className='info1'>
                     <p><b>Tlf:</b>{contactInfo.tlf}</p>
                     <p><b>Dirección:</b>{contactInfo.location}</p>
-                    <p><b>Email:</b>{contactInfo.email}</p>
-
                 </div>
                 <div className='info2'>
                     <p><b>Horario:</b></p>

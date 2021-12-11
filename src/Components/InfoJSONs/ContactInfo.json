@@ -1,9 +1,8 @@
 
 
 {
-    "location": "Calle Dr Barraquer número, 17., 28903, Getafe"
+    "location": "Centro comercia Getafe II: Calle Dr Barraquer número, 17., 28903, Getafe"
     , "tlf": "628935597"
-    ,"email" : "awawa@oeuntoeh.com"
     , "schedule": [
         {
             "time": "Lunes - Viernes"
@@ -11,7 +10,7 @@
         }
         , {
             "time": "Sabado"
-            , "hours": "10:00 - 14:50"
+            , "hours": "10:00 - 14:00"
         }
         , {
             "time": "Domingo"

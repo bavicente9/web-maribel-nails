@@ -5,6 +5,7 @@ const Contact = () => {
 
     return (
         <div className='contact' id = 'contact'>
+            <h1 className ='titleContact' >CONTACTO</h1>
             <div className='contactContainer' >
                 <ContactInfo />
                 <ContactLocationMap />

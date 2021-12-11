@@ -1,5 +1,3 @@
-
-
 .card-service {
     background-color: #fff;
     overflow: visible;
@@ -11,16 +9,16 @@
 .card-side {
     width: 320px;
     height: 525px;
-    
+
     overflow: hidden;
     border: 1px solid var(--main-color);
     border-radius: 30px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.25);
-    
+
     transition: all 0.4s ease;
     backface-visibility: hidden;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
 
     text-align: center;
@@ -45,8 +43,9 @@
     background-color: rgba(0, 0, 0, 0.65);
     color: #fff;
     height: 45px;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif, cursive;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -68,7 +67,7 @@
     height: 65%;
 }
 
-.front-card button {
+.front-card button, .back-card .btn-trataments-back {
     background: none;
     border: none;
     border: solid 1px var(--main-color);
@@ -81,9 +80,17 @@
     color: var(--main-color);
     cursor: pointer;
 }
+.front-card .btn-front-card{
+    color: #fff;
+    border: 1px solid var(--main-color);
+    background-color: #f3a8dc;
 
+}
+.front-card .btn-front-card:hover{
+    background-color: #f3a8dcb4;;
+}
 .front-card button:hover {
-    background-color: #f3a8dd58;
+    background-color: #ffe8f8;
 }
 
 /*Back- card*/
@@ -91,31 +98,47 @@
 .back-card {
     transform: rotateY(-180deg);
     background-image: url('cardServiceBack-BG.svg');
-    
+    position: relative;
 }
 
-.back-card h2{
+.back-card h2 {
     margin: 25px;
-    font-size: 40px;
+    min-height: 45px;
+    max-height: 70px;
+    font-size: 28px;
     font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+
 }
 
-.back-card ul{
+.back-card ul {
     height: 60%;
 
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: left;
     list-style-type: circle;
     font-size: 20px;
     font-family: 'Crimson Text', serif;
- 
 }
 
-.back-card li{
-    line-height: 30px;
+.back-card li {
+    line-height: 25px;
+
+}
+.back-card .divButtons{
+    position: absolute;
+    bottom: 15px;
+}
+.back-card .btn-trataments-back {
+    background: rgba(255, 255, 255, 0.123);
+    color: #fff;
+    border-color: #fff;
 }
 
-.back-card .btn-back-card:hover{
-        color: #fff;
-        border: 1px solid #fff;
+.back-card .btn-back-card:hover,.back-card .btn-trataments-back:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #f3a8dd58;
 }

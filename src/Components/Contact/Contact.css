@@ -1,4 +1,7 @@
 
+.contact{
+    background: rgb(236, 236, 236);
+}
 
 .contactContainer {
     display: grid;
@@ -9,16 +12,25 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 
+.contact .titleContact {
+    margin:0;
+    padding: 25px ;
 
+    text-align: center;
+}
 
 
 
 @media screen and (max-width: 700px) {
     
+    .contact h1{
+        margin: 15px;
+        
+    }
     
     .contactContainer {
         grid-template-columns: repeat(auto-fit, 100%);

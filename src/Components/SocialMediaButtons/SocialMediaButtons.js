@@ -14,9 +14,11 @@ const socialMediaButtons = (props) => {
         return (
             socialMedia.map((item) => {
                 return (
-                    <button key={item.link} className='socialMediaButton'  
-                    style ={{backgroundImage :`url(${item.image})`}}
-                     onClick={() => { handleClick(item.link) }} ></button>
+                    <button key={item.link} className='socialMediaButton'
+                        style={{ backgroundImage: `url(${item.image})` }}
+                        onClick={() => { handleClick(item.link) }}
+                        id={`${item.name}-Button`}
+                    ></button>
                 )
             })
         )
@@ -25,7 +27,7 @@ const socialMediaButtons = (props) => {
 
 
     return (
-        <div className ={`socialMediaButtonsContainer ${props.className}`}>
+        <div className={`socialMediaButtonsContainer ${props.className}`}>
             {generateButtons()}
         </div>
     )

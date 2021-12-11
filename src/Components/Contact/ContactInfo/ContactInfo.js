@@ -8,7 +8,7 @@ const ContactInfo = () => {
         <div className='contactInfoContainer' >
             <h2 className = 'titleHeader'>CONTACTO</h2>
             <div className='contactInfo'>
-                <h1 className='info title'>MARIBEL NAILS </h1>
+                <h1 className='info title'>MARIBEL NAIL'S </h1>
                 <div className='info info1'>
                     <div className=''>
                         <h2>VISITANOS</h2>
@@ -43,7 +43,7 @@ const ContactInfo = () => {
                 </div>
 
                 <div className='info socialMedia'>
-                    <h2>¡SIGENOS EN REDES!</h2>
+                    <h2>¡SIGUENOS EN REDES!</h2>
                     <SocialMediaButtons />
                 </div>
 
