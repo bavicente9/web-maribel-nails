@@ -1,7 +1,6 @@
 import ButtonAppointment from "../../BtnAppointment/ButtonAppointment"
 import useFitText from 'use-fit-text'
 import './Card.css'
-import { useEffect } from "react"
 
 //return a card with the props information
 const Card = (props) => {

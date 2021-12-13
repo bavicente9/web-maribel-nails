@@ -111,7 +111,7 @@
 .info__tlf{
     display: flex;
     flex-direction: row;
-    justify-content:start;
+    justify-content:flex-start;
 }
 #info__tlf-icon {
     background-image: url(IconWhatsapp.png);

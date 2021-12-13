@@ -1,11 +1,10 @@
 
-import { Link, useLocation} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import ButtonAppointment from '../BtnAppointment/ButtonAppointment';
 
 //This is a solution to React Router's issue of not scrolling to #hash-fragments when using the <Link> component to navigate.
 import { HashLink } from 'react-router-hash-link';
 import './Header.css'
-import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
 
 

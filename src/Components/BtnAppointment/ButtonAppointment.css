@@ -7,7 +7,7 @@ border-radius: 10px;
 height: 50px;
 width: 150px;
 margin: 5px;
-font-size: 20px;
+font-size: 100%;
 font-family: 'Crimson Text', serif;
 font-weight: 500;
 color: var(--main-color);
