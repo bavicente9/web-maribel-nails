@@ -4,12 +4,12 @@ import contactInfo from '../InfoJSONs/ContactInfo.json'
 
 function Footer() {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <div className = 'whiteDiv' />
             <div className='footerContainer'>
 
                 <div className='logoAndSocialMediaContainer'>
-                    <img alt='logo' src='./images/logo.jpg' />
+                    <img alt='' src='./images/logo.jpg' />
                     <SocialMediaButtons className = 'footerSocialMedia' />
                 </div>
                 <div className='info1'>
@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div className = 'translucidLayer'/>
-        </div>
+        </footer>
     )
 }
 
