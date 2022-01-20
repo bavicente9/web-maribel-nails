@@ -12,7 +12,6 @@ const Home = () => {
       <Slider />
       <Services />
       <Contact />
-
     </main>
   )
 }
