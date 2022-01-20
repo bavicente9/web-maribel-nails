@@ -52,13 +52,13 @@ function Services() {
     })
 
     return (
-        <div className='services' id='services'>
+        <section aria-label='services' className='services' id='services'>
             <h1>SERVICIOS</h1>
             <div className='cards-container'>
                 {generateCards()}
 
             </div>
-        </div>
+        </section>
     )
 }
 

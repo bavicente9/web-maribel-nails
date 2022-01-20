@@ -16,12 +16,12 @@ const Card = (props) => {
                     <img alt={infoCard.name} src={infoCard.image} />
                     <h2  >{infoCard.name}</h2>
                 </div>
-                <div className='bottomPart'>
+                <div aria-label="service description" className='bottomPart'>
 
                     <p>{infoCard.description}</p>
 
                     <div className='divButtons'>
-                        <button className='btn-trataments' onClick={props.handleChange}>TRATAMIENTOS</button>
+                        <button aria-label="see trataments" className='btn-trataments' onClick={props.handleChange}>TRATAMIENTOS</button>
                         <ButtonAppointment className = 'btn-front-card'/>
 
                     </div>
@@ -31,7 +31,7 @@ const Card = (props) => {
 
             <div id={`${index}back-card`} className='card-side back-card'>
                 <h2 >{infoCard.name}</h2>
-                <ul ref={ref} style={{ fontSize }} id={`${index}-card-services`}>
+                <ul aria-label="trataments" ref={ref} style={{ fontSize }} id={`${index}-card-services`}>
                     {(() =>
                         infoCard.services_list.map((service, index) => {
                             return (
