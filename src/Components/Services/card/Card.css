@@ -67,13 +67,16 @@
     height: 65%;
 }
 
+.divButtons{
+    display: flex;
+}
 .front-card button, .back-card .btn-trataments-back {
     background: none;
     border: none;
     border: solid 1px var(--main-color);
     border-radius: 10px;
     height: 50px;
-    width: 150px;
+    width: 145px;
     margin: 5px;
     font-size: 100%;
     font-family: 'Crimson Text', serif;
@@ -81,6 +84,8 @@
     cursor: pointer;
 }
 .front-card .btn-front-card{
+    display: grid;
+    place-items: center;
     color: #fff;
     border: 1px solid var(--main-color);
     background-color: #f3a8dc;
