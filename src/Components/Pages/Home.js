@@ -1,19 +1,18 @@
 
 import Slider from '../Slider/Slider';
 import Services from '../Services/Services';
-import Contact from  '../Contact/Contact';
+import Contact from '../Contact/Contact';
 
 
 
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Slider />
-      < Services  />
+      <Services />
       <Contact />
-      
-    </div>
+    </main>
   )
 }
 

@@ -74,19 +74,18 @@ button, a {
     color: rgb(255, 255, 255);
 }
 
-.header .nav-container a:nth-child(2) {
+.header .nav-container a:nth-child(1) {
 
     margin-right: 50px;
 }
 
 .header .nav-container a:hover {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.247) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 /*Button*/
 
 .nav-container .barMenu-btn-Appointment {
-    border-left: none;
     background-color: #fff;
     border-radius: 10px;
     border: 1px solid var(--main-color);
@@ -94,12 +93,14 @@ button, a {
     margin-left: 15px;
     color: var(--main-color);
     height: 40px;
+    display: grid;
+    place-items: center;
 }
 
+
 .nav-container .barMenu-btn-Appointment:hover {
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
 }
 
 @media screen and (max-width: 700px) {
@@ -141,17 +142,19 @@ button, a {
     }
     /*Button */
     .responsiveMenu .barMenu-btn-Appointment {
-        border-left: none;
         background-color: #fff;
         border-radius: 10px;
         border: 1px solid var(--main-color);
         color: var(--main-color);
         margin: 0 5px 0 0;
         height: 40px;
+
+        display: grid;
+        place-items: center;
     }
     .responsiveMenu .barMenu-btn-Appointment:hover {
         color: #fff;
-        border: 1px solid #fff;
+        border: 2px solid #fff;
         background-color: var(--main-color);
     }
     .header {
@@ -188,9 +191,9 @@ button, a {
     }
     .responsiveMenu .nav-container-responsive a {
         display: block;
-        font-size: 24px;
+        font-size:1.7rem;
         text-decoration: none;
-        font-family: 'Roboto', sans-serif, cursive;
+        font-family: 'Roboto', sans-serif;
         text-align: center;
         padding: 10px;
         color: #fff;

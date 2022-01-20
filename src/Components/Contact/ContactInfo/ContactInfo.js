@@ -6,7 +6,7 @@ import contactInfo from '../../InfoJSONs/ContactInfo.json'
 const ContactInfo = () => {
     return (
         <div className='contactInfoContainer' >
-            <h2 className = 'titleHeader'>CONTACTO</h2>
+            <h2 className='titleHeader'>CONTACTO</h2>
             <div className='contactInfo'>
                 <h1 className='info title'>MARIBEL NAIL'S </h1>
                 <div className='info info1'>
@@ -46,7 +46,6 @@ const ContactInfo = () => {
                     <h2>¡SIGUENOS EN REDES!</h2>
                     <SocialMediaButtons />
                 </div>
-
             </div>
 
         </div>

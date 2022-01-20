@@ -3,22 +3,19 @@ import contactInfo from '../InfoJSONs/ContactInfo.json'
 
 const socialMediaButtons = (props) => {
     const socialMedia = contactInfo.socialMedia
-    //open a new tab with its respective link
-    const handleClick = (link) => {
-        window.open(
-            link, '__blank'
-        )
-    }
+
     //generate social media buttons with its respective image
     const generateButtons = () => {
         return (
             socialMedia.map((item) => {
                 return (
-                    <button key={item.link} className='socialMediaButton'
+                    <a key={item.link} className='socialMediaButton'
+                        aria-label={item.name}
                         style={{ backgroundImage: `url(${item.image})` }}
-                        onClick={() => { handleClick(item.link) }}
+                        rel='external'
+                        href={item.link}
                         id={`${item.name}-Button`}
-                    ></button>
+                    ></a>
                 )
             })
         )
@@ -27,9 +24,9 @@ const socialMediaButtons = (props) => {
 
 
     return (
-        <div className={`socialMediaButtonsContainer ${props.className}`}>
+        <nav aria-label='follow us in our social media' className={`socialMediaButtonsContainer ${props.className}`}>
             {generateButtons()}
-        </div>
+        </nav>
     )
 }
 
