@@ -32,36 +32,33 @@ const Header = () => {
     }
 
     return (
-        <header className='header'>
+        <header aria-label='header' className='header'>
             <div className='whiteDiv' />
             <HashLink to ='/#home'> 
             <img id='logoHeader' alt='logo' src='./images/logo.jpg' />
             </HashLink> 
 
-            <div className='nav-container'>
-
-                <ButtonAppointment className='barMenu-btn-Appointment' />
-
+            <nav role='menubar'  className='nav-container'>
                 <Link to="/contact">CONTACTO</Link>
 
-                <HashLink to="/#services">SERVICIOS</HashLink>
-                <HashLink to="/#home">INICIO</HashLink>
+                <HashLink rel='section' to="/#services">SERVICIOS</HashLink>
+                <HashLink rel='section' to="/#home">INICIO</HashLink>
+                <ButtonAppointment className='barMenu-btn-Appointment' />
 
-            </div>
+            </nav>
 
             <div className='responsiveMenu'>
                 <div className='buttons'>
                     <ButtonAppointment className='barMenu-btn-Appointment' />
-                    <button className='btnResponsiveMenu' id='btnResponsiveMenu' style={{ backgroundImage: "url('./images/icons/IconBarMenuOpen.svg')" }} onClick={(e) => handleChangeTogleMenu(e)} />
+                    <button aria-label='hamburger button menu' className='btnResponsiveMenu' id='btnResponsiveMenu' style={{ backgroundImage: "url('./images/icons/IconBarMenuOpen.svg')" }} onClick={(e) => handleChangeTogleMenu(e)} />
                 </div>
-                <div className='nav-container-responsive' id='responsiveMenu-navContainer'>
+                <nav role='menubar' className='nav-container-responsive' id='responsiveMenu-navContainer'>
                     <ul id='menuOptionsList'>
-                        <li><HashLink onClick={(e) => handleChangeTogleMenu(e)} to="/#home" >INICIO</HashLink></li>
-                        <li><HashLink onClick={(e) => handleChangeTogleMenu(e)} to="/#services">SERVICIOS</HashLink></li>
-                        <li><Link onClick={(e) => handleChangeTogleMenu(e)} to="/contact">CONTACTO</Link></li>
+                        <li><HashLink rel='section'onClick={(e) => handleChangeTogleMenu(e)} to="/#home" >INICIO</HashLink></li>
+                        <li><HashLink rel='section' onClick={(e) => handleChangeTogleMenu(e)} to="/#services">SERVICIOS</HashLink></li>
+                        <li><Link    rel='section' onClick={(e) => handleChangeTogleMenu(e)} to="/contact">CONTACTO</Link></li>
                     </ul>
-                </div>
-
+                </nav>
 
             </div>
         </header>
