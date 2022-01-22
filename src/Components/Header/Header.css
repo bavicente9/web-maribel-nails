@@ -99,8 +99,9 @@ button, a {
 
 
 .nav-container .barMenu-btn-Appointment:hover {
-    border: 1px solid var(--main-color);
+    border: 1px solid #fff;
     background: var(--main-color);
+    color: #fff;
 }
 
 @media screen and (max-width: 700px) {
@@ -148,7 +149,8 @@ button, a {
         color: var(--main-color);
         margin: 0 5px 0 0;
         height: 40px;
-
+        font-family: 'Roboto',sans-serif;
+        font-weight: normal;
         display: grid;
         place-items: center;
     }
