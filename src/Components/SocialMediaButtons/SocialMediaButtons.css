@@ -1,9 +1,9 @@
 .socialMediaButtonsContainer{
     display: grid;
     text-align: center;
-    
-    grid-template-columns: repeat(3, min-content);
-    grid-template-rows: min-content;
+    /* width: 100%; */
+    grid-template-columns: repeat(4, min-content);
+    grid-template-rows: repeat(auto-fill, min-content);
     justify-content: center;
     align-items: center;
     

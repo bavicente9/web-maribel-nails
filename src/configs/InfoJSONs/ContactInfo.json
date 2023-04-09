@@ -6,7 +6,7 @@
     , "schedule": [
         {
             "time": "Lunes - Viernes"
-            , "hours": "10:00 - 19:00"
+            , "hours": "10:00 - 14:00 y 15:00 - 19:00"
         }
         , {
             "time": "Sabado"
@@ -27,6 +27,11 @@
             "name": "Instagram",
             "link": "https://www.instagram.com/maribelnails9545/",
             "image" : "./images/icons/IconInstagram.png"
+        }
+        , {
+            "name": "TikTok",
+            "link": "https://www.tiktok.com/@maribelnails7",
+            "image" : "./images/icons/IconTikTok.png"
         }
         , {
             "name": "Booksy",
