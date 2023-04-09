@@ -14,8 +14,44 @@
         ]
     },
     {
+        "name": "Tratamiento SCULPT",
+        "description": "Consigue la figura soñada con SCULPT. Nuestros expertos te ayudarán de forma segura y efectiva. ¡Reserva hoy y transforma tu cuerpo!",
+        "image": "./images/imagesServices/sculpt.png",
+        "services_list": [
+            "Sesión de reducción de grasa localizada en abdomen.",
+            "Sesión de tonificación de glúteos.",
+            "Sesión de levantamiento de brazos.",
+            "Sesión de tonificación de piernas.",
+            "Sesión de levantamiento de muslos.",
+            "Sesión de moldeamiento de cintura.",
+            "Sesión de eliminación de celulitis en piernas.",
+            "Sesión de estiramiento de piel en abdomen.",
+            "Sesión de eliminación de grasa en espalda."
+         ]
+    },
+    {
+        "name": "Depilación laser diodo",
+        "description": "Elimina el vello no deseado de forma efectiva y duradera con nuestra depilación láser. ¡Obtén una piel suave y sin preocupaciones!",
+        "image": "./images/imagesServices/depilacionLaser.png",
+        "services_list": [
+            "Depilación de labio",
+            "Depilación patillas",
+            "Depilación facial",
+            "Depilación de menton",
+            "Depilación de frente",
+            "Depilación de piernas",
+            "Depilación de abdomen",
+            "Depilación de brazos",
+            "Depilación de ingles",
+            "Depilación de gluteos",
+            "Depilación de linea de alba",
+            "Depilación de espalda",
+            "y mas.."
+        ]
+    },
+    {
         "name": "Depilación con hilo",
-        "description": "La depilación con hilo es una técnica precisa y sencilla donde eleminaremos el vello no deseado de una forma eficaz.",
+        "description": "Consigue una piel suave y libre de vello con nuestra depilación con hilo. Un método preciso, natural y duradero para lucir radiante.",
         "image": "./images/imagesServices/depilacionConHilo.png",
         "services_list": [
             "Depilación de cejas con hilo",
@@ -29,7 +65,7 @@
     
     {
         "name": "Depilación con cera",
-        "description": "Ofrecemos depilación con cera con la cual conseguimos resultados duraderos y de forma rápida.",
+        "description": "Disfruta de una piel suave y sin vello por más tiempo con nuestra depilación con cera. Un método efectivo y duradero que te hará sentir cómoda y segura. ¡Agenda tu cita hoy mismo!",
         "image": "./images/imagesServices/depilacionConCera.png",
         "services_list": [
             "Depilación de cejas con cera",
@@ -50,7 +86,7 @@
     
     {
         "name": "Pedicura",
-        "description": "Pedicura tradicional, semipermanente y más te ofrecemos el mejor cuidado de tus pies con resutados impecables.",
+        "description": "Consiente tus pies con nuestra pedicura profesional. Ofrecemos una experiencia relajante y de alta calidad para dejar tus pies suaves y radiantes. ¡Agenda tu cita hoy y da a tus pies el cuidado que merecen!",
         "image": "./images/imagesServices/pedicura.png",
         "services_list": [
             "Pedicura tradicional",
@@ -77,6 +113,17 @@
             "Masaje antnicelulítico",
             "Masaje relajante"
         ]
+    },
+    {
+        "name": "Mesoterapia virtual",
+        "description": "Consigue una piel radiante y saludable con nuestra Mesoterapia Virtual. Sin agujas ni dolor, hidrata y rejuvenece tu rostro en una sola sesión. ¡Pide cita ahora!",
+        "image": "./images/imagesServices/mesoterapia.png",
+        "services_list":  [
+            "Sesión de revitalización facial con vitaminas y antioxidantes.",
+            "Sesión de reducción de manchas y pigmentación en el rostro.",
+            "Sesión de rejuvenecimiento facial para minimizar arrugas y líneas de expresión.",
+            "Sesión de lifting facial sin cirugía."
+         ]
     },
     {
         "name": "Maderoterapia",
