@@ -24,7 +24,7 @@ const socialMediaButtons = (props) => {
 
 
     return (
-        <nav aria-label='follow us in our social media' className={`socialMediaButtonsContainer ${props.className}`}>
+        <nav aria-label='Siguenos en nuestras redes' className={`socialMediaButtonsContainer ${props.className}`}>
             {generateButtons()}
         </nav>
     )
