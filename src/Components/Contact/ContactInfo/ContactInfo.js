@@ -1,6 +1,6 @@
 import SocialMediaButtons from '../../SocialMediaButtons/SocialMediaButtons'
 import './ContactInfo.css'
-import contactInfo from '../../InfoJSONs/ContactInfo.json'
+import contactInfo from  '../../../configs/InfoJSONs/ContactInfo.json'
 
 
 const ContactInfo = () => {

@@ -1,6 +1,6 @@
 import './Footer.css'
 import SocialMediaButtons from "../SocialMediaButtons/SocialMediaButtons";
-import contactInfo from '../InfoJSONs/ContactInfo.json'
+import contactInfo from  '../../configs/InfoJSONs/ContactInfo.json'
 
 function Footer() {
     return (
