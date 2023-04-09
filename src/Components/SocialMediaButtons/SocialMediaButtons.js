@@ -11,11 +11,11 @@ const socialMediaButtons = (props) => {
                 return (
                     <a key={item.link} className='socialMediaButton'
                         aria-label={item.name}
-                        style={{ backgroundImage: `url(${item.image})` }}
+                        style={{ backgroundImage: `url(${item.image})`,fontSize:0 }}
                         rel='external'
                         href={item.link}
                         id={`${item.name}-Button`}
-                    ></a>
+                    >{item.name}</a>
                 )
             })
         )

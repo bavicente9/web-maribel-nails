@@ -38,7 +38,7 @@ const Slider = () => {
     }, [index]);
 
 
-    //it change the index 1 back or 1 next
+    //it change the index -1 to go back or +1 to go to the next
     //if the index is 0 and try to back 1 position it will return the last position
     //if the index is the last position and try to pass to next position it will return the start position 
     const handleChange = (direction) => {
@@ -62,10 +62,10 @@ const Slider = () => {
 
             <div className='slider-content' style={{ transform: `translateX(${-index * 100}%)` }}>
                 {
-                    images.map(image => {
-                        const source = image.default
+                    images.map((image,index) => {
+                        const source = image
                         return (
-                            <img key={source} alt={''} src={source} />
+                            <img key={index} alt={'Imagen de presentación'} src={source} />
                         )
                     })
                 }
