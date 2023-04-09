@@ -1,4 +1,4 @@
-import Contact from "../Contact/Contact"
+import Contact from "../Components/Contact/Contact"
 
 
 

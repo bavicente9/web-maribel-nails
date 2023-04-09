@@ -2,8 +2,8 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-import Home from './Components/Pages/Home'
-import ContactPage from './Components/Pages/ContactPage'
+import Home from './views/Home'
+import ContactPage from './views/ContactPage'
 import {
   BrowserRouter as Router,
   Routes,
