@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Card from './card/Card'
 import './Services.css'
-import servicesObj from '../InfoJSONs/ServicesInfo.json'
+import servicesObj from  '../../configs/InfoJSONs/ServicesInfo.json'
 
 
 

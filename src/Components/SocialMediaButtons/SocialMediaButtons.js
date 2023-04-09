@@ -1,5 +1,5 @@
 import './SocialMediaButtons.css'
-import contactInfo from '../InfoJSONs/ContactInfo.json'
+import contactInfo from '../../configs/InfoJSONs/ContactInfo.json'
 
 const socialMediaButtons = (props) => {
     const socialMedia = contactInfo.socialMedia
@@ -11,11 +11,11 @@ const socialMediaButtons = (props) => {
                 return (
                     <a key={item.link} className='socialMediaButton'
                         aria-label={item.name}
-                        style={{ backgroundImage: `url(${item.image})` }}
+                        style={{ backgroundImage: `url(${item.image})`,fontSize:0 }}
                         rel='external'
                         href={item.link}
                         id={`${item.name}-Button`}
-                    ></a>
+                    >{item.name}</a>
                 )
             })
         )
@@ -24,7 +24,7 @@ const socialMediaButtons = (props) => {
 
 
     return (
-        <nav aria-label='follow us in our social media' className={`socialMediaButtonsContainer ${props.className}`}>
+        <nav aria-label='Siguenos en nuestras redes' className={`socialMediaButtonsContainer ${props.className}`}>
             {generateButtons()}
         </nav>
     )
