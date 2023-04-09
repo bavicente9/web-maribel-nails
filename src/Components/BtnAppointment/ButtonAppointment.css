@@ -12,6 +12,10 @@
     font-weight: 600;
     color: var(--main-color);
     cursor: pointer;
+
+    display: grid;
+    place-content: center;
+
 }
 
 .button-Appointment:hover {
