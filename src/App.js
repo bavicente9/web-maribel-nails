@@ -19,13 +19,14 @@ const App = () => {
     <Router>
       <ScrollToTop/>
       <Header />
-      <Routes>
-        <Route path='/' element={<Home />} >
-
-        </Route>
-          <Route path='#services' element={<Home />} />
-        <Route path='contact' element={<ContactPage />} />
-      </Routes>
+      <body className='mainContainer'>
+        <Routes>
+          <Route path='/' element={<Home />} >
+          </Route>
+            <Route path='#services' element={<Home />} />
+          <Route path='contact' element={<ContactPage />} />
+        </Routes>
+      </body>
       <Footer />
     </Router>
   )
