@@ -1,44 +1,40 @@
-
-
 {
-    "location": "Castellón de la plana, nº 25, Getafe 28903"
-    , "tlf": "628935597"
-    , "schedule": [
+    "location": "Castellón de la plana, nº 25, Getafe 28903",
+    "tlf": " 628 935 597",
+    "schedule": [
         {
-            "time": "Lunes - Viernes"
-            , "hours": "10:00 - 14:00 y 15:00 - 19:00"
+            "time": "Lunes - Viernes",
+            "hours": "10:00 - 14:00 y 15:00 - 19:00"
+        },
+        {
+            "time": "Sabado",
+            "hours": "10:00 - 14:00"
+        },
+        {
+            "time": "Domingo",
+            "hours": "Cerrado"
         }
-        , {
-            "time": "Sabado"
-            , "hours": "10:00 - 14:00"
-        }
-        , {
-            "time": "Domingo"
-            , "hours": "Cerrado"
-        }
-    ]
-    ,"socialMedia" : [
+    ],
+    "socialMedia": [
         {
             "name": "Facebook",
             "link": "https://www.facebook.com/people/Maribel-Nails/100075086238387/?show_switched_toast=true&show_switched_tooltip=true",
-            "image" : "./images/icons/IconFacebook.png"
-        }
-        , {
+            "image": "./images/icons/IconFacebook.png"
+        },
+        {
             "name": "Instagram",
             "link": "https://www.instagram.com/maribelnails9545/",
-            "image" : "./images/icons/IconInstagram.png"
-        }
-        , {
+            "image": "./images/icons/IconInstagram.png"
+        },
+        {
             "name": "TikTok",
             "link": "https://www.tiktok.com/@maribelnails7",
-            "image" : "./images/icons/IconTikTok.png"
-        }
-        , {
+            "image": "./images/icons/IconTikTok.png"
+        },
+        {
             "name": "Booksy",
             "link": "https://booksy.com/es-es/11160_maribel-nail-s_estilistas-unas_52975_getafe",
-            "image" : "./images/icons/IconBooksy.png"
+            "image": "./images/icons/IconBooksy.png"
         }
     ]
 }
-
-
